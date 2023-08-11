@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=prompt("Enter the char:")
+        let b=a.charCodeAt();
+        console.log(b);
+        if(b>=65 && b<=90){
+            document.write("UpperCase");
+        }
+        else if(b>=97 && b<=122){
+            document.write("LowerCase");
+        }
+        else if(b>=48 && b<=57){
+            document.write("number");
+        }
+        else{
+            document.write("nothing")
+        }
+    </script>
+</body>
+</html>
